@@ -285,7 +285,7 @@ you can mix and match real arguments with argument matcher
 _                   //just one value, and could be anything
 _ as String         //more strict, especify the type
 * _                 //any number of params with any value
-![value]            //a param with a diffenrent value
+![value]            //a param with a different value
 literal (5, "foo")  //the params must be exactly this value
 {it -> ... }        //groovy closure, it's evaluated to true or false
 ```
